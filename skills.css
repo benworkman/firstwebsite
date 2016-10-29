@@ -1,0 +1,14 @@
+body {
+  margin: auto;
+}
+ul {
+  background-color: red;
+  list-style-type: none;
+  text-decoration: none;
+}
+li {
+  color: #000;
+  border: .1px solid #000;
+  background-color: #999;
+  display: inline;
+}
