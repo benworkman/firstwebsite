@@ -1,0 +1,58 @@
+h1 {
+  border: 0.1px solid #000;
+  font-family: cursive, sans;
+  color: red;
+  text-align: center;
+  background-color: #FFF;
+  width: 100%;
+}
+h1:hover {
+  background-color: #999;
+  color: #000;
+}
+.navbar-heading__name:hover {
+  color: #FFF;
+  cursor: pointer;
+}
+.navbar-heading__name:active {
+  color: red;
+}
+
+body {
+    text-transform: capitalize;
+    background-color: #999;
+    background-image: url("images/Asian Homes 03.jpeg");
+    background-repeat: repeat;
+}
+
+ul {
+  margin-left: 32%;
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+}
+
+li {
+  border: .1px solid #000;
+  color: red;
+  padding: 1.2rem;
+  background-color: #FFF;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+.navbar-link__text:hover {
+  color: #FFF;
+  cursor: crosshair;
+}
+.navbar-link__text:active {
+  color: #DD0000;
+}
+li:hover {
+  background-color: #999;
+  color: #000;
+  cursor: pointer;
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+}

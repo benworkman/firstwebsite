@@ -1,0 +1,25 @@
+h1 {
+  font-family: cursive;
+  border: .1px solid #FFF;
+  background-color: #000;
+  text-align: center;
+}
+a {
+  color: #000
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange;
+}
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+body {
+  background-image: url("images/Asian Homes 04.jpeg");
+}
